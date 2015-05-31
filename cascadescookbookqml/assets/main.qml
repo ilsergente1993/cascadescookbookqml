@@ -26,6 +26,9 @@ NavigationPane {
 
     Page {
         id: recipeListPage
+        titleBar: TitleBar {
+            title: "Wooow --> Big J"
+        }
         Container {
             layout: DockLayout {
             }
